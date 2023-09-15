@@ -14,7 +14,7 @@ export const Images = (props: ImagesProps) => {
       height={200}
       radius="full"
       alt="NextUI hero Image with delay"
-      src={props.img}
+      src={"/images/profile.jpg"}
       loading="lazy"
     />
   );

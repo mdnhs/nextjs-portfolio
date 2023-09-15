@@ -57,7 +57,9 @@ export const Navbar = () => {
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Logo />
-            <p className="font-bold text-inherit">Mazictor</p>
+            <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 dark:from-indigo-200 from-10% dark:via-sky-500 via-30% dark:to-emerald-500">
+              {"Nazmul's House"}
+            </p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
@@ -88,7 +90,8 @@ export const Navbar = () => {
           <ThemeSwitch />
           <Button
             as={Link}
-            className="dark:bg-white bg-black rounded-full text-white dark:text-black"
+            radius="full"
+            className="dark:bg-white bg-black text-white dark:text-black"
             href="#"
           >
             {"LET'S TALK"}
