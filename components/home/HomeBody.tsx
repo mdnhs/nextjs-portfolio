@@ -2,7 +2,7 @@ import HeroSection from "./HeroSection";
 
 const HomeBody = () => {
   return (
-    <div className="w-full">
+    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 w-full">
       <div id="home" className="h-96">
         <HeroSection />
       </div>
@@ -16,8 +16,7 @@ const HomeBody = () => {
       <div id="contact" className="h-96 w-full bg-primary dark:bg-light">
         Contact
       </div>
-      <div></div>
-    </div>
+    </section>
   );
 };
 
